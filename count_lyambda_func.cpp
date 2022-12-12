@@ -25,6 +25,8 @@ int main() {
         1, 2, 3, 5, 4
     };
 
+    cout << count(begin(v), end(v), 2) << endl;
+
     Print(v, "init");
 
     for (auto& i : v) {
